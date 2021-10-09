@@ -1,0 +1,63 @@
+body{
+    background-image: url(../../media/fondos/fondoCuerpoPagina.jpg  );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.barra{
+    color: rgb(255,255,255);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnNav ul a li{
+    background: rgb(107, 0, 0);
+    width: 150px;
+    height: 55px;
+    color: rgb(255,255,255);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+    margin-top: 20px;
+}
+
+.btnNav ul a li:hover{
+    background: rgb(0, 0, 0);
+    width: 155px;
+    height: 55px;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.items *{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.pasos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img img{
+    width: 1220px;
+    height: 720px;
+}

@@ -1,0 +1,109 @@
+body{
+    background-image: url(../media/fondos/fondoCuerpoPagina.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.barra{
+    color: rgb(255,255,255);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnNav ul a li{
+    background: rgb(107, 0, 0);
+    width: 150px;
+    height: 55px;
+    color: rgb(255,255,255);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+    margin-top: 20px;
+}
+
+.btnNav ul a li:hover{
+    background: rgb(0, 0, 0);
+    width: 155px;
+    height: 55px;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.items *{
+    text-decoration: none;
+    list-style: none;
+}
+
+.tarjetas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tarjeta1{
+    background-color: rgba(255, 255, 255, 0.329);
+    width: 400px;
+    height: 450px;
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-top: 20px;
+    display: flex;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn{
+    background-color: #700000;
+    border-radius: 10px;
+    padding: 10px;
+    border: #000000 solid 2px;
+    color: rgb(255, 255, 255);
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    border: #000000 solid 2px;
+    color: rgb(0, 0, 0);
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.img1 img{
+    width: 1220px;
+    height: 720px;
+}
